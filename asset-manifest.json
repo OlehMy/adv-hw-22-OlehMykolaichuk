@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/adv-hw-22-OlehMykolaichuk/static/css/main.25b59d4d.chunk.css",
+    "main.js": "/adv-hw-22-OlehMykolaichuk/static/js/main.209c1da9.chunk.js",
+    "main.js.map": "/adv-hw-22-OlehMykolaichuk/static/js/main.209c1da9.chunk.js.map",
+    "runtime-main.js": "/adv-hw-22-OlehMykolaichuk/static/js/runtime-main.3d9d0b79.js",
+    "runtime-main.js.map": "/adv-hw-22-OlehMykolaichuk/static/js/runtime-main.3d9d0b79.js.map",
+    "static/js/2.ebbdb05f.chunk.js": "/adv-hw-22-OlehMykolaichuk/static/js/2.ebbdb05f.chunk.js",
+    "static/js/2.ebbdb05f.chunk.js.map": "/adv-hw-22-OlehMykolaichuk/static/js/2.ebbdb05f.chunk.js.map",
+    "static/js/3.45aa2c25.chunk.js": "/adv-hw-22-OlehMykolaichuk/static/js/3.45aa2c25.chunk.js",
+    "static/js/3.45aa2c25.chunk.js.map": "/adv-hw-22-OlehMykolaichuk/static/js/3.45aa2c25.chunk.js.map",
+    "index.html": "/adv-hw-22-OlehMykolaichuk/index.html",
+    "static/css/main.25b59d4d.chunk.css.map": "/adv-hw-22-OlehMykolaichuk/static/css/main.25b59d4d.chunk.css.map",
+    "static/js/2.ebbdb05f.chunk.js.LICENSE.txt": "/adv-hw-22-OlehMykolaichuk/static/js/2.ebbdb05f.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/adv-hw-22-OlehMykolaichuk/static/media/padlock.9fc8846a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d9d0b79.js",
+    "static/js/2.ebbdb05f.chunk.js",
+    "static/css/main.25b59d4d.chunk.css",
+    "static/js/main.209c1da9.chunk.js"
+  ]
+}
