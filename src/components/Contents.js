@@ -21,7 +21,7 @@ class Contents extends Component {
                 <Switch>
                     <Route path = '/adv-hw-22-OlehMykolaichuk/' exact component = {HomePage}/>
                     <Route path = '/adv-hw-22-OlehMykolaichuk/sign-in'>
-                        <SignInPage/>
+                        <SignInPage users={this.users}/>
                     </Route>
                     <Route path = '/adv-hw-22-OlehMykolaichuk/sign-up'>
                         <SignUpPage addDataUsers={this.addDataUsers}/>

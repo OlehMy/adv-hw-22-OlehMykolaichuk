@@ -39,11 +39,6 @@ class SignUp extends Component {
 
     changeChecked = () => {
         this.setState({checked: !this.state.checked});
-        if (this.state.firstName !== '' && this.state.lastName !== '' && this.state.email !== '' && this.state.password !== '' && this.state.checked === false) {
-            this.setState({disabled: false})
-        }else {
-            this.setState({disabled: true})
-        };
     };
 
     render() {
@@ -64,7 +59,11 @@ class SignUp extends Component {
                     <label for = "custom-checkbox">I want to receive inspiration, markting promotions and updates via email</label>
                 </div>
                 <div className = "sign__button-block flex">
-                    <button className = "sign__button" onClick = {this.addData} disabled = {this.state.disabled}>Sign up</button>                
+                    <button className = "sign__button" onClick = {this.addData}
+                        disabled = {(this.state.firstName !== '' && this.state.lastName !== '' && this.state.email !== '' && this.state.password !== '' && this.state.checked === true) ?
+                        !this.state.disabled :
+                        this.state.disabled }>Sign up
+                    </button>                
                 </div>
                 <div className = "sign__links-block flex">
                     <p></p>

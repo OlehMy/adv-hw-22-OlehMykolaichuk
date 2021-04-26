@@ -1,8 +1,6 @@
 import { Link } from 'react-router-dom';
 
 const SignIn = (props) => {
-    
-
     return (
         <section className = "sign flex">
             <div className = "sign__header flex">
